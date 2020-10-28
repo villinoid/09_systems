@@ -14,4 +14,5 @@ void main(){
 	update_density(m, rand());
 	printf("Material updated with new random density\n");
 	print_material(m);
+	free(m);
 }
